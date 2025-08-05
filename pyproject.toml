@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "storage"
+version = "0.0.1"
+description = ""
+authors = ["Patrakov Andrey Vladimirovich <a.v.patrakov95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+minio = "7.2.15"
+pydantic = "2.0.3"
+pydantic-settings = "2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
